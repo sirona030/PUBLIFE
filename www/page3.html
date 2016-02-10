@@ -1,0 +1,24 @@
+<ons-page style="background-color:white;">
+    <div style="text-align: center;">
+        <br>
+        <div style="text-align: center">
+        <img src="./images/Logo.jpg" id="Logo">
+        <p id="error_message">
+        </p>
+        <p>
+        <!-- ユーザー名とパスワードを入力するテキストボックスを用意 -->
+            <br/>
+            <input type="text" id="user_name" style="height:10%;font-size:30px;width:90%;" placeholder="UserName"/><br/>
+            <br/>
+            <input type="text" id="password" style="height:10%;font-size:30px;width:90%;" placeholder="Password"/><br/>
+        </p>
+        <br/>
+        <ons-button
+            onclick="signIn()" style="height:8%; width:35%; float:left; margin-left:10%">
+            Log In
+        </ons-button>
+        <ons-button
+            onclick="createAccount()" style="height:8%; width:35%; float:right; margin-right:10%">
+            Sign Up
+        </ons-button>
+</ons-page>

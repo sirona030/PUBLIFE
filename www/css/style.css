@@ -1,0 +1,276 @@
+#myid{
+    text-align: center;
+    margin-right: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+    border: medium solid gainsboro;
+    border-width: 1px;
+}
+
+#tabudayo{
+    height: 0px;
+}
+
+
+.plan-list {
+  border-top: none;
+  background-image: none !important;
+}
+
+.plan {
+  line-height: 1;
+  padding: 0;
+}
+
+.plan-left {
+  text-align: right;
+  padding: 10px 10px 10px 0;
+}
+
+.plan-center {
+  background-color: #3399ff;
+  opacity: 0.5;
+}
+
+.plan-right {
+  padding: 10px 40px 10px 10px;
+}
+
+.plan-date {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.plan-duration {
+  font-size: 11px;
+  opacity: 0.4;
+}
+
+.plan-name {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.plan-info {
+  opacity: 0.4;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+
+/*ここから上はマイページ*/
+#aiueo{
+    color: skyblue;
+}
+
+#setting{
+    font-size: 15px;
+    margin-left: 13px;
+}
+
+
+#line{
+    border-top: medium solid gainsboro;
+    border-top-width: 1px;
+    line-height: 5px;
+    
+}
+
+#haikei{
+    background-color: whitesmoke;
+    line-height:8px;
+}
+#komozi{
+    color:#666;
+    font-size: 13px;
+    margin-left: 13px;
+}
+
+#sen{
+    padding: 0px;
+    margin: 0px;
+}
+
+#toolbar{
+    height:15%;
+}
+
+#mypage{
+    margin-left: 20px;
+    margin-top: 23px;
+    font-size:25px;
+}
+
+.nin{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #248;
+    color: #fff;
+    margin: 14px 5px 0px 5px;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    
+
+
+}
+
+#kensaku{
+    margin-right: 20px;
+    margin-top: 23px;
+    font-size:25px;
+}
+
+.reply-notification {
+  position: absolute;
+  top: 28px;
+  font-size: 10px;
+  font-weight: 600;
+  height: 13px;
+  line-height: 13px;
+  padding: 0 4px;
+  min-width: 13px;
+  margin-left: 18px;
+}
+
+.tab-icon {
+  font-size: 28px;
+  vertical-align: -4px;
+}
+
+.timeline {
+  /*background-color: tan;*/
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.category{
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+
+.idealine{
+    border-color: skyblue;
+    border:double;
+    margin-top: 50px;
+    padding-top:0px;
+    margin-bottom: 10px;
+}
+
+.resline {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.timeline-li {
+  line-height: 1;
+}
+
+
+.timeline-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+#left{
+    display:inline;
+}
+.topimage{ 
+    text-align: center;  
+    margin: 10px;
+    width:170px;
+    height:50px;
+}
+
+.timeline-sankaku {
+  float: right;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+#iine{
+    margin-right: 10px;
+    float:right;
+    font-size:12px;
+    opacity:0.5;
+}
+
+#res{
+    margin-right: 15px;
+    float:right;
+    font-size:12px;
+    opacity:0.5;
+}
+
+
+.timeline-from {
+  margin: 0px 0 6px 0;
+    border-radius: 5px 5px 0px 0px;
+  background-color: lightblue;
+}
+
+.timeline-name {
+  margin-left: 9px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding:3px;
+}
+
+.timeline-id {
+  font-size: 14px;
+  opacity: 0.4;
+}
+
+.timeline-message {
+  margin-top: 10px;
+  margin-bottom:10px;
+  margin-left: 30px;
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 1.15;
+}
+
+#replyinput{
+    z-index:1;
+    position:fixed;
+    top:-90px;
+    left:0;
+	width:100%;
+    height:45px;
+    background-color: black;
+    padding-top: 2px;
+    height:85px;
+    padding-left:2px;
+    overflow: hidden;
+    margin-top: -2px;
+}
+
+#replycontents{
+    top:0px;
+    position: relative;
+}
+
+#Logo{
+    height:50%;
+    width: auto;
+}
+#replybutton{
+    z-index:1;
+    position:fixed;
+    bottom:10%;
+    right:20px;
+}
+#backbutton{
+    z-index:1;
+    position:fixed;
+    bottom:10%;
+    left:20px;
+    background-color: white;
+}

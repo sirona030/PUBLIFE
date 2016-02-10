@@ -1,0 +1,33 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="left"><ons-back-button>Back</ons-back-button></div>
+        <div class="center">Page 2</div>
+    </ons-toolbar>
+  <div class="list scroll-area">
+      <div id="btnLogin">
+          <button onclick="connect()" class="button--large">Connect to Twitter</button>
+      </div>
+
+
+    <ul class="list__container" id="item-list">
+      <!-- using micro-templating trick -->
+      <script type="text/template" id="item-list-item">
+        <li class="list__item list__item__line-height list-item-container">
+          <div class="list-item-main">
+            <div class="list-item-left">
+              <img src="<%=user.profile_image_url%>" class="list-item-face">
+            </div>
+            <div class="list-item-right">
+              <span class="list-item-name">
+                <%=user.name%>
+                <span class="lucent">@<%=user.screen_name%></span>
+              </span>
+              <br />
+              <span class="list-item-text">"<%=text%></span>
+            </div>
+          </div>
+        </li>
+      </script>
+    </ul>
+  </div>
+</ons-page>
